@@ -18,6 +18,8 @@ We then took the counts of the guides table by replicate and merged the counts b
 
 For calculating the gene scores (median log2 fold change by gene), again, based on the code of F. Rousset ([https://gitlab.pasteur.fr/dbikard/ecocg/-/blob/master/Notebook.ipynb](https://gitlab.pasteur.fr/dbikard/ecocg/-/blob/master/Notebook.ipynb)) we wrote the [CRISPR_pool_log2FC_scores.py](https://github.com/jorgEVOplasmids/CRISPRi_pOXA48/blob/main/scripts/CRISPR_pool_log2fc_scores.py) script, which takes the table with the replicates merged by sample, and calculates the log2FC for each gene, then centering the values by removing the median of control guides. The output table contains two sheets, being the first one the table with log2FC values and the second one the table with the metadata.
 
-#### Preeliminary plotting and  
+#### Preeliminary plotting and filtering by score
 
 Finally, to represent the resulting gene scores in an easy way, we decided to add the annotation of the plasmid genes and intergenic regions (see [pOXA_intergenic_reannotation.py](https://github.com/jorgEVOplasmids/CRISPRi_pOXA48/blob/main/scripts/pOXA_intergenic_reannotation.py)). Then, we represented the log2FC for each gene in each timepoint of each treatment for each strain, colouring by annotation function. These first graphics give an idea of when is it beneficial to silence a gene (positive median gene score) or deleterium when silencing it (negative median gene score), with the plots_log2FC_by_gene.R script. We did the same representing in the Y axis the ERTA treatment and in the X axis the NO ERTA treatment.
+
+With these data, we summarized the genes in tables depending on the values of the log2FC, setting as threshold -0.5 and +0.5, and added category columns for each condition and also combining both conditions (ERTA vs no ERTA). We did this with the gene_filter_by_score.py script.
