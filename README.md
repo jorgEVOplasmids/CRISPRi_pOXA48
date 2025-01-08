@@ -4,11 +4,11 @@
 
 ### Phylogenetic tree
 
-To represent the sequence types considered in our study, we measured the phylogenetic distances between the strains (default [mashtree](https://github.com/lskatz/mashtree) command), and represented the resulting tree using [iTOL](https://itol.embl.de/))
+To represent the sequence types considered in our study, we measured the phylogenetic distances between the strains (default [mashtree](https://github.com/lskatz/mashtree) command), and represented the resulting tree using [iTOL](https://itol.embl.de/)), which is shown in the main manuscript (**Figure 1C**).
 
 ### pOXA-48 fitness effects
 
-To analyze the fitness effects caused by pOXA-48 in its bacterial hosts, we measured the bacterial growth of each strain both carrying and not carrying pOXA-48. We analyzed these data in R (see SCRIPT).
+To analyze the fitness effects caused by pOXA-48 in its bacterial hosts, we measured the bacterial growth of each strain both carrying and not carrying pOXA-48. We analyzed these data in R (see SCRIPT). The resulting plot is shown in **Figure 1D**.
 
 ## Analysis of CRISPRi screen
 
