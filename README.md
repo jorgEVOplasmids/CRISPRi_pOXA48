@@ -44,6 +44,10 @@ To analyze whether the response to the CRISPRi screens in the different conditio
 
 For checking statistically significant differences from the score of each gene from the distribution of gene scores, we performed a permutation test for all the data merged (14 strains & 106 genes). Taking each gene score, we calculated the difference between this value and the mean of the rest of the gene scores. Then, for getting the probability of obtaining the score of each gene, we calculated for 100000 permutations  the difference between random gene scores and the mean of the rest of the genes (see [CRISPRi_stats.R](https://github.com/jorgEVOplasmids/CRISPRi_pOXA48/blob/main/scripts/CRISPR_stats.R)). Lastly, the proportion of times that this statistic was more extreme than the score of each gene indicated the probability of getting such a score (i.e. 14 measurements per gene, calc its mean, compare vs rest of 100000 random means calculated, minimum p-value = 0.00001). We selected 100000 permutations to get more precise probabilities, as the p values of some genes seemed marginally significant when performing the permutation tests with 10000 repeats. Finally, we adjusted the p-values by FDR. The statistical analyses of the CRISPRi results through the application of these permutation tests are shown in the **Figure 3A**.
 
-## Correlation between CRISPRi scores and pOXA-48 costs
+## Correlation between blaOXA-48 and pOXA-48 cost
 
 To study the relationship between the blaOXA-48 gene score and the plasmid cost, we calculated the correlation between both variables (see [correlations_costs_CRISPRi_scores.R](https://github.com/jorgEVOplasmids/CRISPRi_pOXA48/blob/main/scripts/correlations_costs_CRISPRi_scores.R)), and represented it as shown in **Figure 5A**.
+
+## Correlation between CRISPRi scores and pOXA-48 cost
+
+To analyze whether our CRISPRi set up was able to reflect overall plasmid fitness effects, we correlated the pOXA-48 fitness effects in the strains under study with the general effect of the CRISPRi screen in each strain. We calculated these values as the difference between the mean effect of blocking pOXA-48 genes (mean CRISPRi gene scores for each strain) and the mean effect of the control guides.
