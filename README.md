@@ -46,4 +46,4 @@ For checking statistically significant differences from the score of each gene f
 
 ## Correlation between CRISPRi scores and pOXA-48 costs
 
-To study the relationship between the resistance gene *bla*$$OXA-48$$.
+To study the relationship between the resistance gene *bla*</sub>OXA-48</sub>.
