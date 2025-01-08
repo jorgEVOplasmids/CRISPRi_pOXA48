@@ -4,7 +4,7 @@
 
 ### Phylogenetic tree
 
-To represent the sequence types considered in our study, we measured the phylogenetic distances between the strains (see SCRIPT), and represented the resulting tree using [iTOL](https://itol.embl.de/))
+To represent the sequence types considered in our study, we measured the phylogenetic distances between the strains (default [mashtree](https://github.com/lskatz/mashtree) command), and represented the resulting tree using [iTOL](https://itol.embl.de/))
 
 ### pOXA-48 fitness effects
 
