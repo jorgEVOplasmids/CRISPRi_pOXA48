@@ -46,4 +46,4 @@ For checking statistically significant differences from the score of each gene f
 
 ## Correlation between CRISPRi scores and pOXA-48 costs
 
-To study the relationship between the resistance gene and the plasmid cost, we calculated the correlation between both variables (see SCRIPT), as shown in **Figure 5A**.
+To study the relationship between the resistance gene and the plasmid cost, we calculated the correlation between both variables (see [correlations_costs_CRISPRi_scores.R](https://github.com/jorgEVOplasmids/CRISPRi_pOXA48/blob/main/scripts/correlations_costs_CRISPRi_scores.R)), as shown in **Figure 5A**.
