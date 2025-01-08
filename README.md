@@ -34,7 +34,7 @@ Finally, to represent the resulting gene scores in an easy way, we decided to ad
 
 #### Final plot of CRISPRi scores
 
-To represent the complete information including all the strains after processing the data, we decided to represent the gene scores in a heatmap for each experimental condition (**Figure 2A**). These were plotted using R (see SCRIPT).
+To represent the complete information including all the strains after processing the data, we decided to represent the gene scores in a heatmap for each experimental condition (**Figure 2A**). These were plotted using R (see [heatmap_CRISPRi.R](https://github.com/jorgEVOplasmids/CRISPRi_pOXA48/blob/main/scripts/heatmap_CRISPRi.R)).
 
 ## Permutation test
 
