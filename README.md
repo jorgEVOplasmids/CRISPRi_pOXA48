@@ -38,7 +38,7 @@ To represent the complete information including all the strains after processing
 
 ## Analysis of response conservation
 
-To analyze whether the response to the CRISPRi screens in the different conditions was conserved among the diverse strains, we correlated the gene scores for each pairwise strain combination per condition (see SCRIPT).
+To analyze whether the response to the CRISPRi screens in the different conditions was conserved among the diverse strains, we correlated the gene scores for each pairwise strain combination per condition using R corrplot package (see [similarity_matrices_and_SDC_analysis.R](https://github.com/jorgEVOplasmids/CRISPRi_pOXA48/blob/main/scripts/similarity_matrices_and_SDC_analysis.R)). These correlation matrices are shown in **Figure 2B**. Additionally, this script contains the code to perform the similarity analysis using the Sørensen-Dice Coefficient (SDC), which are shown in **Supplementary Figure 5**.
 
 ## Permutation test
 
