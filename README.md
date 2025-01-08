@@ -1,5 +1,15 @@
 # CRISPRi screening of pOXA-48
 
+## Phenotypic analysis of strains under study
+
+### Phylogenetic tree
+
+To represent the sequence types considered in our study, we measured the phylogenetic distances between the strains (see SCRIPT), and represented the resulting tree using [iTOL](https://itol.embl.de/))
+
+### pOXA-48 fitness effects
+
+To analyze the fitness effects caused by pOXA-48 in its bacterial hosts, we measured the bacterial growth of each strain both carrying and not carrying pOXA-48. We analyzed these data in R (see SCRIPT).
+
 ## Analysis of CRISPRi screen
 
 #### Quality Control of raw reads
