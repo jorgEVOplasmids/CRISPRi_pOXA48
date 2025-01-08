@@ -8,7 +8,7 @@ To represent the sequence types considered in our study, we measured the phyloge
 
 ### pOXA-48 fitness effects
 
-To analyze the fitness effects caused by pOXA-48 in its bacterial hosts, we measured the bacterial growth of each strain both carrying and not carrying pOXA-48. We analyzed these data in R (see SCRIPT). The resulting plot is shown in **Figure 1D**.
+To analyze the fitness effects caused by pOXA-48 in its bacterial hosts, we measured the bacterial growth of each strain both carrying and not carrying pOXA-48. We analyzed these data in R (see SCRIPT). The resulting plot is shown in **Figure 1D**. Furthermore, in following sections of the paper, we analyze whether the deletion of the resistance gene from the plasmid alleviates the plasmid costs. These analyses can be found in the script [growth_curves_delta_blaOXA48.R](https://github.com/jorgEVOplasmids/CRISPRi_pOXA48/blob/main/scripts/growth_curves_delta_blaOXA48.R).
 
 ## Analysis of CRISPRi screen
 
