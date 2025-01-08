@@ -1,6 +1,6 @@
 # CRISPRi screening of pOXA-48
 
-## Phenotypic analysis of strains under study
+## Phenotypic analysis of the strains under study
 
 ### Phylogenetic tree
 
