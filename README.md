@@ -36,6 +36,10 @@ Finally, to represent the resulting gene scores in an easy way, we decided to ad
 
 To represent the complete information including all the strains after processing the data, we decided to represent the gene scores in a heatmap for each experimental condition (**Figure 2A**). These were plotted using R (see [heatmap_CRISPRi.R](https://github.com/jorgEVOplasmids/CRISPRi_pOXA48/blob/main/scripts/heatmap_CRISPRi.R)).
 
+## Analysis of response conservation
+
+To analyze whether the response to the CRISPRi screens in the different conditions was conserved among the diverse strains, we correlated the gene scores for each pairwise strain combination per condition (see SCRIPT).
+
 ## Permutation test
 
 For checking statistically significant differences from the score of each gene from the distribution of gene scores, we performed a permutation test for all the data merged (14 strains & 106 genes). Taking each gene score, we calculated the difference between this value and the mean of the rest of the gene scores. Then, for getting the probability of obtaining the score of each gene, we calculated for 100000 permutations  the difference between random gene scores and the mean of the rest of the genes (see [CRISPRi_stats.R](https://github.com/jorgEVOplasmids/CRISPRi_pOXA48/blob/main/scripts/CRISPR_stats.R)). Lastly, the proportion of times that this statistic was more extreme than the score of each gene indicated the probability of getting such a score (i.e. 14 measurements per gene, calc its mean, compare vs rest of 100000 random means calculated, minimum p-value = 0.00001). We selected 100000 permutations to get more precise probabilities, as the p values of some genes seemed marginally significant when performing the permutation tests with 10000 repeats. Finally, we adjusted the p-values by FDR.
