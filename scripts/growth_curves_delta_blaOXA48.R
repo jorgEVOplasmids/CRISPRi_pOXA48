@@ -1,6 +1,6 @@
 # Initial set-up ----
 
-setwd("/home/jorge/Documents/CRISPRi/delta_blaoxa")
+setwd("/data")
 
 library(RColorBrewer)
 library(ggplot2)
@@ -32,13 +32,13 @@ library(performance)
 library(see)
 library(xlsx)
 
-path_to_txt= "/home/jorge/Documents/CRISPRi/delta_blaoxa/txt_files/"
+path_to_txt= "/data/curves/"
 
-path_to_Growthrates= "/home/jorge/Documents/CRISPRi/delta_blaoxa/generated_files/"
+path_to_Growthrates= "/data/generated_files/"
 
-path_to_output= "/home/jorge/Documents/CRISPRi/delta_blaoxa/generated_files/"
+path_to_output= "/data/generated_files/"
 
-Plantilla <- read.table("/home/jorge/Documents/CRISPRi/delta_blaoxa/Plantilla.csv", na.strings="",header=TRUE, sep = ";")
+Plantilla <- read.table("/data/Plantilla.csv", na.strings="",header=TRUE, sep = ";")
 
 # Preparing and organising the data ----
   
@@ -48,9 +48,6 @@ df.list <- lapply(paste0(path_to_txt, file.list),
                       function(x)read.delim(x, header=T, dec=","))
 
 attr(df.list, "names") <- file.list
-
-# Ahora le meto los tiempos (24 horas que son 1440 minutos)
-# Cambio esta version un poco porque el PR2 no mide cada 10 min, sino cada 20...
 
 t1 <- rep(seq(0, 1450-10, 10),1)
 t2 <- rep(seq(0, 1450-10, 10),1)
