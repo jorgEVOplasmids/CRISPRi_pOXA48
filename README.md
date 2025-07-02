@@ -6,7 +6,8 @@ The code uploaded in this repostitory summarizes the steps necessary to analyze 
 
   - [Mashtree](https://github.com/lskatz/mashtree)
   - [R](https://www.r-project.org/)
-  -
+  - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+  - 
 
 ## Phenotypic analysis of the strains under study
 
