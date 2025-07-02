@@ -41,8 +41,6 @@ path_to_output= "/home/jorge/Documents/CRISPRi/delta_blaoxa/generated_files/"
 Plantilla <- read.table("/home/jorge/Documents/CRISPRi/delta_blaoxa/Plantilla.csv", na.strings="",header=TRUE, sep = ";")
 
 # Preparing and organising the data ----
-
-# Ahora creara un bucle en el que pegara los nombres de los archivos en la lista (antes eran names y ahora es el path)
   
 file.list <- list.files(path =path_to_txt, full.names = F)
 
@@ -115,8 +113,6 @@ info_data2<-info_data %>% full_join(new_data) %>% unique()
 
 data_analysed_AUC_RELATIVE<- info_data2 %>%
   mutate(AUCRel= AUC / AUC_PF) %>% unique()
-
-# Plotear todo
 
 data_analysed_AUC_RELATIVE %>% 
   ggplot(aes(Strain, AUC))+
