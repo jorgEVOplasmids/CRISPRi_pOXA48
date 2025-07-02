@@ -1,5 +1,9 @@
 # CRISPRi screening of pOXA-48
 
+## Software dependency and code overview
+
+
+
 ## Phenotypic analysis of the strains under study
 
 ### Phylogenetic tree
