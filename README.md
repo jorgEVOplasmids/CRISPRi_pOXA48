@@ -8,7 +8,7 @@ The code uploaded in this repostitory summarizes the steps necessary to analyze 
   - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
   - 
 
-In addition, [R](https://www.r-project.org/) and [Python](https://www.python.org/) are required to run some of the scripts. The specific packages required to run each script are found at the beggining of the script. Source data (i.e. the original FASTQ files from which the code calculates all the downstream values) can be found at the Sequence Read Archive (SRA) from the NCBI Bioproject [PRJNA1203587](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1203587).
+In addition, [R](https://www.r-project.org/) and [Python](https://www.python.org/) are required to run some of the scripts. The specific packages required to run each script are found at the beggining of the script. Source data (i.e. the original FASTQ sequencing read files from which the code calculates all the downstream values) can be found at the Sequence Read Archive (SRA) from the NCBI Bioproject [PRJNA1203587](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1203587).
 
 ## Phenotypic analysis of the strains under study
 
