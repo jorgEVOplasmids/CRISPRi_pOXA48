@@ -2,6 +2,8 @@
 
 ## Software dependency and code overview
 
+The code uploaded in this repostitory summarizes the steps necessary to analyze sequencing reads of temporal samples during a CRISPRi screen, from the quality control to reformatting and calculation of CRISPRi gene scores. The software needed to execute the scripts are:
+
 
 
 ## Phenotypic analysis of the strains under study
