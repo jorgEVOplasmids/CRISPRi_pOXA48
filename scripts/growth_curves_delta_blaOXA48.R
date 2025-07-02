@@ -31,8 +31,6 @@ library(mgcv)
 library(performance)
 library(see)
 library(xlsx)
-library(car)
-library(ggpubr)
 
 path_to_txt= "/home/jorge/Documents/CRISPRi/delta_blaoxa/txt_files/"
 
