@@ -1,4 +1,4 @@
-# CRISPRi screening of pOXA-48
+# CRISPRi screening of pOXA-48 carrying clinical Enterobacterales
 
 ## Software dependency and code overview
 
