@@ -61,7 +61,8 @@ To study the relationship between the blaOXA-48 gene score and the plasmid cost,
 
 ## Correlation between CRISPRi scores and pOXA-48 cost
 
-To analyze whether our CRISPRi set up was able to reflect overall plasmid fitness effects, we correlated the pOXA-48 fitness effects in the strains under study with the general effect of the CRISPRi screen in each strain. We calculated these values as the difference between the mean effect of blocking pOXA-48 genes (mean CRISPRi gene scores for each strain) and the mean effect of the control guides (see [correlation_costs_vs_control.R](https://github.com/jorgEVOplasmids/CRISPRi_pOXA48/blob/main/scripts/correlation_costs_vs_control.R)). This correlation is shown in **Supplementary Figure 3**.
+To analyze whether our CRISPRi set up was able to reflect overall plasmid fitness effects, we correlated the pOXA-48 fitness effects in the strains under study with the general effect of the CRISPRi screen in each strain. We calculated these values as the difference between the mean effect of blocking pOXA-48 genes (mean CRISPRi gene scores for each strain) and the mean effect of the control guides (see [correlation_costs_vs_control.R](https://github.com/jorgEVOplasmids/CRISPRi_pOXA48/blob/main/scripts/correlation_costs_vs_control.R)). This correlation is shown in **Supplementary Figure 6**.
+
 
 
 All the code in this repository is released under the MIT license.
