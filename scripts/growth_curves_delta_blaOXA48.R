@@ -80,7 +80,7 @@ curve_data <- df_test %>%
 
 ### Import new data
 
-curve_data <- read.csv("curves_blaOXA.csv")
+curve_data <- read.csv("data/generated_files/GrowthRates_results.csv")
 
 ## AUC ----
 
