@@ -60,14 +60,10 @@ time <- c(t1,t2,t3,t4,t5,t6,t7)
 df_data <- bind_rows(df.list, .id = "id") %>% 
   mutate(Time=time)
 
-# Ahora le cambio el nombre de la optical density
-
 df_test<-df_data %>% 
   select( -`TOpticalDensity600`) %>% 
   gather(-Time,-id,  key = Well, value = OD ) %>% 
   separate(id, into=c("Plate", "Date"), remove = F) 
-
-# Ahora quito los "-" y lo presento a la Plantilla
 
 curve_data <- df_test %>% 
   left_join(Plantilla %>% mutate(Plate=as.character(Plate), 
